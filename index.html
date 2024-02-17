@@ -8,11 +8,21 @@
 </head>
 <body>
 
-    <div id="imagepokemon"></div>
+    <video autoplay muted loop disablePictureInPicture id="myVideo">
+        <source src="Media/bgvid.mp4" type="video/mp4">
+    </video>
+
+    <div class="pokeContent">
+        <div id="imagepokemon"></div>
+            
+        <audio id="myAudio" autoplay>
+            <source src="Media/media.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div id="jokeContent">
+    </div>
     
-    <audio id="myAudio" autoplay>
-        <source src="media.mp3" type="audio/mpeg">
-    </audio>
     
     <script src="index.js"></script>
 </body>
